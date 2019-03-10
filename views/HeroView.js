@@ -22,6 +22,7 @@ class HeroView extends Component<Props> {
 
         this.state = {
             hero: this.props.hero,
+            event: this.props.event
         };
     }
 
